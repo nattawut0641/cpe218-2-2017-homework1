@@ -7,4 +7,10 @@ public class Node{
         left = null;
         right = null;
     }
+
+    public String getValue(){
+        return value.toString();
+    }
 }
+
+
